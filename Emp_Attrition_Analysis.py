@@ -5,7 +5,7 @@ import seaborn as sns
 from scipy import stats
 import pylab
 
-attrition = pd.read_csv(r"C:\Users\USER\Downloads\Assighnments\Project\Emp_Attrition.csv")
+attrition = pd.read_csv(r"local path")
 attrition.shape              ## Shape of the data
 attrition.columns           ## Column names of the data
 
