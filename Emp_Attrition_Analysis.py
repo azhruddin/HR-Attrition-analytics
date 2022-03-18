@@ -9,6 +9,7 @@ attrition = pd.read_csv(r"local path")
 attrition.shape              ## Shape of the data
 attrition.columns           ## Column names of the data
 
+## Taking only usefull indipendent veriables only.
 attrition = attrition[['Attrition', 'Designation','PercentSalaryHike', 'TraininginHours', 'WorkLifeBalance', 'Tenure', 'MonthlySalary']]
 
 ## Renaming the columns names
